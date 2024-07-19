@@ -1,0 +1,34 @@
+.login {
+  background-image: url(../../images/loginBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  height: 100vh;
+  &__wrap {
+    box-shadow: rgba(169, 11, 35, 0.845) 0px 7px 29px 0px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 15, 15);
+    color: rgb(219, 211, 211);
+  }
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
+.login-btn {
+    text-align: center;
+    button {
+        padding: 8px 18px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
