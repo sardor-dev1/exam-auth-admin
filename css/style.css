@@ -191,6 +191,10 @@ input {
   font-size: 32px;
 }
 
+.username, .password {
+  width: 100%;
+}
+
 .login-btn {
   text-align: center;
 }
