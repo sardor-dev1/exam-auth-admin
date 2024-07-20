@@ -7,9 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const inputPassword = document.querySelector(".input__password");
   const inputConfirm = document.querySelector(".input__confirm");
   const tableBody = document.querySelector(".tbody");
-  // const logOut = document.querySelector(".log-out");
-
-  
   
   let users = JSON.parse(localStorage.getItem("users")) || [];
 
@@ -77,6 +74,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Initial render
   renderTable();
 });
